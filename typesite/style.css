@@ -1,0 +1,74 @@
+
+
+body {
+    background:rgb(7, 15, 43);
+}
+
+#instructions {
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+    color: rgb(218, 218, 218);
+    background-color: rgb(27, 26, 85);
+    overflow: hidden;
+    box-shadow: 0 3px 2px 0 rgba(6, 4, 15, 0.336);
+}
+
+#wordsBox { 
+    width: 700px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    background-color: rgba(83, 92, 145, 0.596);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.word {
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px; 
+    text-align: center;
+    margin-top: 50px;
+    user-select: none;
+}
+
+#input {
+    position: absolute;
+    width: 696px;
+    margin-top: 200px ;
+    justify-content: flex-end;
+    text-align: center;
+    background:rgba(185, 185, 185, 0.1);
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    border-bottom: thistle;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+#start {
+    border: 0;
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    color: aliceblue;
+    background-color: rgb(83, 92, 145);
+}
